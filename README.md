@@ -2,7 +2,7 @@
 
 ![Node Version](https://img.shields.io/badge/node-%3E%3D20-brightgreen)
 ![pnpm Version](https://img.shields.io/badge/pnpm-%3E%3D10.15.0-orange)
-![License](https://img.shields.io/badge/license-ISC-blue)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
 This repository hosts a robust monorepo containing two standalone microservices: **`pdf-service`** and **`upload-service`**, along with a shared library **`@web-infra/shared`**. It is designed for scalability, maintainability, and ease of development.
 

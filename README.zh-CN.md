@@ -2,7 +2,7 @@
 
 ![Node Version](https://img.shields.io/badge/node-%3E%3D20-brightgreen)
 ![pnpm Version](https://img.shields.io/badge/pnpm-%3E%3D10.15.0-orange)
-![License](https://img.shields.io/badge/license-ISC-blue)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
 本项目托管了一个强大的 Monorepo，包含两个独立的微服务：**`pdf-service`** 和 **`upload-service`**，以及一个共享库 **`@web-infra/shared`**。项目旨在实现高扩展性、可维护性和易于开发。
 
