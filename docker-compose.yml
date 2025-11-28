@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  web:
+    build: .
+    image: playwright-web-to-pdf:latest
+    container_name: playwright-web-to-pdf
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - PDF_CONCURRENCY=5
+      - UPLOAD_DIR=/app/data/uploads
+      - MERGE_DIR=/app/data/merged
+    # If you want to use host network timezones or fonts, mount as needed
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+
